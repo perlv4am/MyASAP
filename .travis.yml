@@ -1,6 +1,7 @@
 language: csharp
 solution: MyASAP.sln
 dist: trusty
+mono: none
 install:
   - nuget restore MyASAP.sln
 script:
