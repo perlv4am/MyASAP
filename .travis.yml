@@ -6,5 +6,5 @@ dotnet: 2.1.4
 install:
   - dotnet restore
 script:
-  - msbuild /p:Configuration=Release MyASAP.sln
+  - dotnet build
   - dotnet test
