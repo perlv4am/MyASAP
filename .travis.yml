@@ -5,3 +5,4 @@ install:
   - nuget restore MyASAP.sln
 script:
   - msbuild /p:Configuration=Release MyASAP.sln
+  - dotnet test
