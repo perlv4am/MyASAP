@@ -20,7 +20,7 @@ namespace MyASAP.Tests.UtilsTests
 
             DegreeUtils.RaToHms(ra, out hours, out minutes, out seconds);
             
-            Assert.Equal(11,hours);
+            Assert.Equal(12,hours);
         }
     }
 }
