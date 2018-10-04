@@ -3,7 +3,7 @@ solution: MyASAP.sln
 dist: trusty
 mono: none
 install:
-  - nuget restore MyASAP.sln
+  - dotnet restore
 script:
   - msbuild /p:Configuration=Release MyASAP.sln
   - dotnet test
