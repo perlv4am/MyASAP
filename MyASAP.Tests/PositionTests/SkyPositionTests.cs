@@ -42,7 +42,7 @@ namespace MyASAP.Tests.PositionTests
 
             var result = skyPosition1.DistanceInDegrees(skyPosition2);
 
-            Assert.Equal(112,result,1);
+            Assert.Equal(112,result,0);
         }
     }
 }
