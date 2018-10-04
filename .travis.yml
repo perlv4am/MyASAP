@@ -7,4 +7,4 @@ install:
   - dotnet restore
 script:
   - dotnet build
-  - dotnet test
+  - dotnet test MyASAP.Tests/MyASAP.Tests.csproj
